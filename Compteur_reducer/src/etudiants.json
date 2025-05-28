@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nom": "El Khalfi",
+    "prenom": "Yassine",
+    "age": 22,
+    "filiere": "Informatique"
+  },
+  {
+    "id": 2,
+    "nom": "Benjelloun",
+    "prenom": "Aya",
+    "age": 21,
+    "filiere": "Gestion"
+  },
+  {
+    "id": 3,
+    "nom": "Ait El Maati",
+    "prenom": "Hamza",
+    "age": 23,
+    "filiere": "Marketing"
+  },
+  {
+    "id": 4,
+    "nom": "Amrani",
+    "prenom": "Fatima Zahra",
+    "age": 20,
+    "filiere": "Design Graphique"
+  },
+  {
+    "id": 5,
+    "nom": "Fassi",
+    "prenom": "Rania",
+    "age": 22,
+    "filiere": "Management"
+  },
+  {
+    "id": 6,
+    "nom": "Bouazza",
+    "prenom": "Mohammed",
+    "age": 24,
+    "filiere": "Réseaux et Télécoms"
+  },
+  {
+    "id": 7,
+    "nom": "Harouchi",
+    "prenom": "Amine",
+    "age": 21,
+    "filiere": "Finance"
+  },
+  {
+    "id": 8,
+    "nom": "Naciri",
+    "prenom": "Salma",
+    "age": 20,
+    "filiere": "Droit"
+  },
+  {
+    "id": 9,
+    "nom": "Bensouda",
+    "prenom": "Othmane",
+    "age": 23,
+    "filiere": "Comptabilité"
+  },
+  {
+    "id": 10,
+    "nom": "El Kadiri",
+    "prenom": "Meryem",
+    "age": 21,
+    "filiere": "Architecture"
+  }
+]

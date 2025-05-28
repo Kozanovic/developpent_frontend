@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>jeu du pendu</title>
+</head>
+<body>
+    <h1>le pendue</h1>
+
+
+    <div class="all-content">
+        <svg height="250" width="200" class="support-content">
+
+            <line x1="60" y1="20" x2="140" y2="20" />
+            <line x1="140" y1="20" x2="140" y2="50" />
+            <line x1="60" y1="20" x2="60" y2="230" />
+            <line x1="20" y1="230" x2="100" y2="230" />
+
+            <!-- head -->
+            <circle cx="140" cy="70" r="20" class="circle-content" />
+
+            <!-- body -->
+            <line x1="140" y1="90" x2="140" y2="150" class="circle-content" />
+
+            <!-- arms -->
+            <line x1="140" y1="120" x2="120" y2="100" class="circle-content" />
+            <line x1="140" y1="120" x2="160" y2="100" class="circle-content" />
+
+            <!-- legs -->
+            <line x1="140" y1="150" x2="120" y2="180" class="circle-content" />
+            <line x1="140" y1="150" x2="160" y2="180" class="circle-content" />
+
+        </svg>
+        <div class="wrong-letters-content">
+            <p>Wrong Letters</p>
+            <div id="wrong-letters"></div>
+        </div>
+        <div class="mot" id="mot"></div>
+
+    </div>
+
+    <!-- message-content -->
+    <div class="message-content" id="message-content">
+        <div class="message">
+            <h2 id="final-message"></h2>
+            <button id="play-btn">Rejouer !</button>
+        </div>
+    </div>
+
+    <!-- notif-content -->
+    <div class="notif-content" id="notif-content">
+        <p>Vous avez deja essaye cette lettre !</p>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

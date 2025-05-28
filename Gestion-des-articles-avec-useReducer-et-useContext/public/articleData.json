@@ -1,0 +1,32 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "libelle": "Chaise",
+            "prix_unitaire": 50,
+            "id_categorie": 1
+        },
+        {
+            "id": 2,
+            "libelle": "Table",
+            "prix_unitaire": 150,
+            "id_categorie": 1
+        },
+        {
+            "id": 3,
+            "libelle": "Lampe",
+            "prix_unitaire": 30,
+            "id_categorie": 2
+        }
+    ],
+    "categories": [
+        {
+            "id_categorie":1,
+            "nom_categorie":"Mobilier"
+        },
+        {
+            "id_categorie":2,
+            "nom_categorie":"Eclairage"
+        }
+    ]
+}

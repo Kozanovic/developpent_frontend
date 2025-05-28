@@ -1,0 +1,694 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Blanc */
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d32f2f; /* Rouge */
+  color: white;
+  padding: 12px;
+  position: relative;
+}
+
+.navbar-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 1rem;
+  display: inline;
+}
+
+.navbar-links li a {
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  background-color: #ffeb3b; /* Jaune */
+  color: #d32f2f; /* Rouge */
+  border-radius: 4px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #d32f2f; /* Rouge */
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links li {
+    margin: 0;
+    text-align: left;
+    list-style-type: none;
+  }
+
+  .navbar-links li a {
+    padding: 1rem;
+    width: 100%;
+    display: block;
+  }
+
+  .navbar-links li a:hover {
+    background-color: #d32f2f;
+    color: #ffeb3b;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #d32f2f; /* Rouge */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Car Card Styles */
+.car-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+}
+
+.car-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.car-name {
+  margin: 1rem 0 0.5rem;
+  color: #d32f2f; /* Rouge */
+}
+
+.car-category,
+.car-price {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.car-details-button {
+  background-color: #d32f2f; /* Rouge */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.car-details-button:hover {
+  background-color: #ffeb3b; /* Jaune */
+  color: #d32f2f; /* Rouge */
+}
+
+/* Booking Form Styles */
+.booking-form {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-title {
+  margin-top: 0;
+  color: #d32f2f; /* Rouge */
+}
+
+.booking-label {
+  display: block;
+  text-align: left;
+  margin: 0.5rem 0 0.2rem;
+  color: #333;
+}
+
+.booking-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.booking-button {
+  background-color: #d32f2f; /* Rouge */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-button:hover {
+  background-color: #ffeb3b; /* Jaune */
+  color: #d32f2f; /* Rouge */
+}
+
+/* Signup and Login Form Styles */
+.signup-form,
+.login-form {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  margin-top: 0;
+  color: #d32f2f; /* Rouge */
+}
+
+.form-label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-button {
+  background-color: #d32f2f; /* Rouge */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #ffeb3b; /* Jaune */
+  color: #d32f2f; /* Rouge */
+}
+
+/* Styles pour les liens dans les formulaires */
+.form-link {
+  display: block;
+  margin-top: 6px;
+  text-align: center;
+  color: black; /* Rouge */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  float: right;
+}
+
+.form-link:hover {
+  color: #b71c1c; /* Rouge foncé */
+}
+
+.login-prompt :link {
+  color: black; /* Rouge */
+  text-decoration: underline;
+}
+
+/* 404 Page Styles */
+.not-found-page {
+  text-align: center;
+  padding: 2rem;
+}
+
+.error-message {
+  color: #d32f2f; /* Rouge */
+}
+
+/* Car List Grid Styles */
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .car-list {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 voitures par ligne pour les tablettes */
+  }
+}
+
+@media (max-width: 768px) {
+  .car-list {
+    grid-template-columns: 1fr; /* 1 voiture par ligne pour les mobiles */
+  }
+
+  .car-image {
+    height: 150px; /* Ajustez la hauteur pour les mobiles */
+  }
+}
+
+/* Car Details Page Styles */
+.car-details-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.car-details-page .page-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #d32f2f; /* Rouge */
+}
+
+.car-details-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.car-details-price {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.car-details-category {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+/* Marque Filter Styles */
+.marque-filter {
+  margin-bottom: 1rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.marque-filter div {
+  margin-bottom: 1rem;
+}
+
+.marque-filter label {
+  margin-right: 0.5rem;
+  color: #333;
+}
+
+.marque-filter select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-right: 1rem;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 60%;
+  max-width: 400px;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-bar input:focus {
+  border-color: #d32f2f; /* Rouge */
+  box-shadow: 0 0 5px rgba(211, 47, 47, 0.2); /* Rouge */
+}
+
+/* No Results Message */
+.no-results {
+  text-align: center;
+  color: #666;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+/* Welcome Message */
+.welcome-message {
+  position: fixed;
+  top: 0; /* Collé en haut de la page */
+  left: 0;
+  right: 0;
+  background-color: #ffeb3b; /* Jaune */
+  color: #d32f2f; /* Rouge */
+  padding: 1rem;
+  text-align: center;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère pour le contraste */
+}
+
+.welcome-message p {
+  margin: 0;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #d32f2f; /* Rouge */
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.close-button:hover {
+  color: #b71c1c; /* Rouge foncé */
+}
+
+/* Success Message Styles */
+.success-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #4caf50; /* Vert */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.success-message p {
+  margin: 0;
+}
+
+.success-message .close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.success-message .close-button:hover {
+  color: #ffeb3b; /* Jaune */
+}
+
+/* Responsive Styles for Success Message */
+@media (max-width: 768px) {
+  .success-message {
+    top: 50px;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .success-message .close-button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .success-message {
+    top: 40px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .success-message .close-button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Styles pour la section hero */
+.hero-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: #d32f2f; /* Rouge */
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #d32f2f; /* Rouge */
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffeb3b; /* Jaune */
+  color: #d32f2f; /* Rouge */
+}
+
+/* Styles pour la section des services */
+.services-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  color: #d32f2f; /* Rouge */
+  margin-bottom: 2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.service-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #d32f2f; /* Rouge */
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Styles pour la section À propos */
+.about-section {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #d32f2f; /* Rouge */
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+}
+
+/* Styles pour la pagination */
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.elements-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes par ligne */
+  gap: 1.5rem; /* Espace entre les cartes */
+  margin-bottom: 2rem;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.pagination-controls button {
+  background-color: #d32f2f; /* Rouge */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination-controls button:hover {
+  background-color: #ffeb3b; /* Jaune */
+  color: #d32f2f; /* Rouge */
+}
+
+.pagination-controls button:disabled {
+  background-color: #ddd;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.pagination-controls span {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Responsive Styles pour la pagination */
+@media (max-width: 1024px) {
+  .elements-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour les tablettes */
+  }
+}
+
+@media (max-width: 768px) {
+  .elements-container {
+    grid-template-columns: 1fr; /* 1 colonne pour les mobiles */
+  }
+
+  .pagination-controls {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .pagination-controls button {
+    width: 100%;
+    padding: 0.75rem;
+  }
+}

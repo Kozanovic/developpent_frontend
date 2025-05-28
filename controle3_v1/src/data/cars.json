@@ -1,0 +1,716 @@
+{
+  "marques": [
+    {
+      "marque": "Toyota",
+      "voitures": [
+        {
+          "id": 1,
+          "name": "Corolla",
+          "category": "Compacte",
+          "pricePerDay": 50,
+          "image": "/images/T_Corolla-removebg-preview.png"
+        },
+        {
+          "id": 2,
+          "name": "Camry",
+          "category": "Berline",
+          "pricePerDay": 70,
+          "image": "/images/T_Camry-removebg-preview.png"
+        },
+        {
+          "id": 3,
+          "name": "Prius",
+          "category": "Hybride",
+          "pricePerDay": 60,
+          "image": "/images/T_Prius-removebg-preview.png"
+        },
+        {
+          "id": 4,
+          "name": "RAV4",
+          "category": "SUV",
+          "pricePerDay": 80,
+          "image": "/images/T_RAV4-removebg-preview.png"
+        },
+        {
+          "id": 5,
+          "name": "Highlander",
+          "category": "SUV",
+          "pricePerDay": 90,
+          "image": "/images/T_Highlander-removebg-preview.png"
+        },
+        {
+          "id": 6,
+          "name": "Land Cruiser",
+          "category": "SUV",
+          "pricePerDay": 150,
+          "image": "/images/T_Land_Cruiser-removebg-preview.png"
+        },
+        {
+          "id": 7,
+          "name": "Tacoma",
+          "category": "Pick-up",
+          "pricePerDay": 100,
+          "image": "/images/T_Tacoma-removebg-preview.png"
+        },
+        {
+          "id": 8,
+          "name": "Tundra",
+          "category": "Pick-up",
+          "pricePerDay": 120,
+          "image": "/images/T_Tundra-removebg-preview.png"
+        },
+        {
+          "id": 9,
+          "name": "4Runner",
+          "category": "SUV",
+          "pricePerDay": 110,
+          "image": "/images/T_4Runner-removebg-preview.png"
+        },
+        {
+          "id": 10,
+          "name": "Sienna",
+          "category": "Minivan",
+          "pricePerDay": 85,
+          "image": "/images/T_Sienna-removebg-preview.png"
+        },
+        {
+          "id": 11,
+          "name": "Yaris",
+          "category": "Compacte",
+          "pricePerDay": 40,
+          "image": "/images/T_Yaris-removebg-preview.png"
+        },
+        {
+          "id": 12,
+          "name": "Supra",
+          "category": "Sportive",
+          "pricePerDay": 200,
+          "image": "/images/T_Supra-removebg-preview.png"
+        }
+      ]
+    },
+    {
+      "marque": "Ford",
+      "voitures": [
+        {
+          "id": 13,
+          "name": "Mustang",
+          "category": "Sportive",
+          "pricePerDay": 150,
+          "image": "/images/F_Mustang-removebg-preview.png"
+        },
+        {
+          "id": 14,
+          "name": "F-150",
+          "category": "Pick-up",
+          "pricePerDay": 120,
+          "image": "/images/F_F-150-removebg-preview.png"
+        },
+        {
+          "id": 15,
+          "name": "Explorer",
+          "category": "SUV",
+          "pricePerDay": 100,
+          "image": "/images/F_Explorer-removebg-preview.png"
+        },
+        {
+          "id": 16,
+          "name": "Escape",
+          "category": "SUV",
+          "pricePerDay": 80,
+          "image": "/images/F_Escape-removebg-preview.png"
+        },
+        {
+          "id": 17,
+          "name": "Focus",
+          "category": "Compacte",
+          "pricePerDay": 60,
+          "image": "/images/F_Focus-removebg-preview.png"
+        },
+        {
+          "id": 18,
+          "name": "Fusion",
+          "category": "Berline",
+          "pricePerDay": 70,
+          "image": "/images/F_Fusion-removebg-preview.png"
+        },
+        {
+          "id": 19,
+          "name": "Edge",
+          "category": "SUV",
+          "pricePerDay": 90,
+          "image": "/images/F_Edge-removebg-preview.png"
+        },
+        {
+          "id": 20,
+          "name": "Ranger",
+          "category": "Pick-up",
+          "pricePerDay": 95,
+          "image": "/images/F_Ranger-removebg-preview.png"
+        },
+        {
+          "id": 21,
+          "name": "Bronco",
+          "category": "SUV",
+          "pricePerDay": 110,
+          "image": "/images/F_Bronco-removebg-preview.png"
+        },
+        {
+          "id": 22,
+          "name": "Expedition",
+          "category": "SUV",
+          "pricePerDay": 130,
+          "image": "/images/F_Expedition-removebg-preview.png"
+        },
+        {
+          "id": 23,
+          "name": "Transit",
+          "category": "Utilitaire",
+          "pricePerDay": 85,
+          "image": "/images/F_Transit-removebg-preview.png"
+        },
+        {
+          "id": 24,
+          "name": "Maverick",
+          "category": "Pick-up",
+          "pricePerDay": 75,
+          "image": "/images/F_Maverick-removebg-preview.png"
+        }
+      ]
+    },
+    {
+      "marque": "Volkswagen",
+      "voitures": [
+        {
+          "id": 25,
+          "name": "Golf",
+          "category": "Compacte",
+          "pricePerDay": 55,
+          "image": "/images/V_Golf-removebg-preview.png"
+        },
+        {
+          "id": 26,
+          "name": "Passat",
+          "category": "Berline",
+          "pricePerDay": 70,
+          "image": "/images/V_Passat-removebg-preview.png"
+        },
+        {
+          "id": 27,
+          "name": "Tiguan",
+          "category": "SUV",
+          "pricePerDay": 85,
+          "image": "/images/V_Tiguan-removebg-preview.png"
+        },
+        {
+          "id": 28,
+          "name": "Jetta",
+          "category": "Berline",
+          "pricePerDay": 65,
+          "image": "/images/V_Jetta-removebg-preview.png"
+        },
+        {
+          "id": 29,
+          "name": "Arteon",
+          "category": "Berline",
+          "pricePerDay": 90,
+          "image": "/images/V_Arteon-removebg-preview.png"
+        },
+        {
+          "id": 30,
+          "name": "Atlas",
+          "category": "SUV",
+          "pricePerDay": 100,
+          "image": "/images/V_Atlas-removebg-preview.png"
+        },
+        {
+          "id": 31,
+          "name": "Polo",
+          "category": "Compacte",
+          "pricePerDay": 50,
+          "image": "/images/V_Polo-removebg-preview.png"
+        },
+        {
+          "id": 32,
+          "name": "T-Roc",
+          "category": "SUV",
+          "pricePerDay": 80,
+          "image": "/images/V_T-Roc-removebg-preview.png"
+        },
+        {
+          "id": 33,
+          "name": "Touareg",
+          "category": "SUV",
+          "pricePerDay": 120,
+          "image": "/images/V_Touareg-removebg-preview.png"
+        },
+        {
+          "id": 34,
+          "name": "ID.3",
+          "category": "Électrique",
+          "pricePerDay": 75,
+          "image": "/images/V_ID.3-removebg-preview.png"
+        },
+        {
+          "id": 35,
+          "name": "ID.4",
+          "category": "SUV Électrique",
+          "pricePerDay": 95,
+          "image": "/images/V_ID.4-removebg-preview.png"
+        },
+        {
+          "id": 36,
+          "name": "Beetle",
+          "category": "Compacte",
+          "pricePerDay": 60,
+          "image": "/images/V_Beetle-removebg-preview.png"
+        }
+      ]
+    },
+    {
+      "marque": "BMW",
+      "voitures": [
+        {
+          "id": 37,
+          "name": "Serie 3",
+          "category": "Berline",
+          "pricePerDay": 100,
+          "image": "/images/B_Série_3-removebg-preview.png"
+        },
+        {
+          "id": 38,
+          "name": "Serie 5",
+          "category": "Berline",
+          "pricePerDay": 120,
+          "image": "/images/B_Série_5-removebg-preview.png"
+        },
+        {
+          "id": 39,
+          "name": "Serie 7",
+          "category": "Berline",
+          "pricePerDay": 150,
+          "image": "/images/B_Série_7-removebg-preview.png"
+        },
+        {
+          "id": 40,
+          "name": "X1",
+          "category": "SUV",
+          "pricePerDay": 90,
+          "image": "/images/B_X1-removebg-preview.png"
+        },
+        {
+          "id": 41,
+          "name": "X3",
+          "category": "SUV",
+          "pricePerDay": 110,
+          "image": "/images/B_X3-removebg-preview.png"
+        },
+        {
+          "id": 42,
+          "name": "X5",
+          "category": "SUV",
+          "pricePerDay": 130,
+          "image": "/images/B_X5-removebg-preview.png"
+        },
+        {
+          "id": 43,
+          "name": "X7",
+          "category": "SUV",
+          "pricePerDay": 160,
+          "image": "/images/B_X7-removebg-preview.png"
+        },
+        {
+          "id": 44,
+          "name": "Z4",
+          "category": "Sportive",
+          "pricePerDay": 140,
+          "image": "/images/B_Z4-removebg-preview.png"
+        },
+        {
+          "id": 45,
+          "name": "M3",
+          "category": "Sportive",
+          "pricePerDay": 180,
+          "image": "/images/B_M3-removebg-preview.png"
+        },
+        {
+          "id": 46,
+          "name": "M5",
+          "category": "Sportive",
+          "pricePerDay": 200,
+          "image": "/images/B_M5-removebg-preview.png"
+        },
+        {
+          "id": 47,
+          "name": "i3",
+          "category": "Électrique",
+          "pricePerDay": 85,
+          "image": "/images/B_i3-removebg-preview.png"
+        },
+        {
+          "id": 48,
+          "name": "i8",
+          "category": "Hybride",
+          "pricePerDay": 250,
+          "image": "/images/B_i8-removebg-preview.png"
+        }
+      ]
+    },
+    {
+      "marque": "Mercedes-Benz",
+      "voitures": [
+        {
+          "id": 49,
+          "name": "Classe C",
+          "category": "Berline",
+          "pricePerDay": 110,
+          "image": "/images/M_Classe_C-removebg-preview.png"
+        },
+        {
+          "id": 50,
+          "name": "Classe E",
+          "category": "Berline",
+          "pricePerDay": 130,
+          "image": "/images/M_Classe_E-removebg-preview.png"
+        },
+        {
+          "id": 51,
+          "name": "Classe S",
+          "category": "Berline",
+          "pricePerDay": 180,
+          "image": "/images/M_Classe_S-removebg-preview.png"
+        },
+        {
+          "id": 52,
+          "name": "GLA",
+          "category": "SUV",
+          "pricePerDay": 100,
+          "image": "/images/M_GLA-removebg-preview.png"
+        },
+        {
+          "id": 53,
+          "name": "GLC",
+          "category": "SUV",
+          "pricePerDay": 120,
+          "image": "/images/M_GLC-removebg-preview.png"
+        },
+        {
+          "id": 54,
+          "name": "GLE",
+          "category": "SUV",
+          "pricePerDay": 140,
+          "image": "/images/M_GLE-removebg-preview.png"
+        },
+        {
+          "id": 55,
+          "name": "GLS",
+          "category": "SUV",
+          "pricePerDay": 160,
+          "image": "/images/M_GLS-removebg-preview.png"
+        },
+        {
+          "id": 56,
+          "name": "AMG S63",
+          "category": "Sportive",
+          "pricePerDay": 250,
+          "image": "/images/M_AMG_S63-removebg-preview.png"
+        },
+        {
+          "id": 57,
+          "name": "Classe A",
+          "category": "Compacte",
+          "pricePerDay": 90,
+          "image": "/images/M_Classe_A-removebg-preview.png"
+        },
+        {
+          "id": 58,
+          "name": "Classe B",
+          "category": "Compacte",
+          "pricePerDay": 95,
+          "image": "/images/M_Classe_B-removebg-preview.png"
+        },
+        {
+          "id": 59,
+          "name": "EQC",
+          "category": "SUV Électrique",
+          "pricePerDay": 150,
+          "image": "/images/M_EQC-removebg-preview.png"
+        },
+        {
+          "id": 60,
+          "name": "Sprinter",
+          "category": "Utilitaire",
+          "pricePerDay": 120,
+          "image": "/images/M_Sprinter-removebg-preview.png"
+        }
+      ]
+    },
+    {
+      "marque": "Audi",
+      "voitures": [
+        {
+          "id": 61,
+          "name": "A3",
+          "category": "Compacte",
+          "pricePerDay": 90,
+          "image": "/images/A_A3-removebg-preview.png"
+        },
+        {
+          "id": 62,
+          "name": "A4",
+          "category": "Berline",
+          "pricePerDay": 110,
+          "image": "/images/A_A4-removebg-preview.png"
+        },
+        {
+          "id": 63,
+          "name": "A6",
+          "category": "Berline",
+          "pricePerDay": 130,
+          "image": "/images/A_A6-removebg-preview.png"
+        },
+        {
+          "id": 64,
+          "name": "A8",
+          "category": "Berline",
+          "pricePerDay": 180,
+          "image": "/images/A_A8-removebg-preview.png"
+        },
+        {
+          "id": 65,
+          "name": "Q3",
+          "category": "SUV",
+          "pricePerDay": 100,
+          "image": "/images/A_Q3-removebg-preview.png"
+        },
+        {
+          "id": 66,
+          "name": "Q5",
+          "category": "SUV",
+          "pricePerDay": 120,
+          "image": "/images/A_Q5-removebg-preview.png"
+        },
+        {
+          "id": 67,
+          "name": "Q7",
+          "category": "SUV",
+          "pricePerDay": 150,
+          "image": "/images/A_Q7-removebg-preview.png"
+        },
+        {
+          "id": 68,
+          "name": "Q8",
+          "category": "SUV",
+          "pricePerDay": 160,
+          "image": "/images/A_Q8-removebg-preview.png"
+        },
+        {
+          "id": 69,
+          "name": "TT",
+          "category": "Sportive",
+          "pricePerDay": 140,
+          "image": "/images/A_TT-removebg-preview.png"
+        },
+        {
+          "id": 70,
+          "name": "R8",
+          "category": "Sportive",
+          "pricePerDay": 300,
+          "image": "/images/A_R8-removebg-preview.png"
+        },
+        {
+          "id": 71,
+          "name": "e-tron",
+          "category": "SUV Électrique",
+          "pricePerDay": 170,
+          "image": "/images/A_e-tron-removebg-preview.png"
+        },
+        {
+          "id": 72,
+          "name": "RS6",
+          "category": "Sportive",
+          "pricePerDay": 250,
+          "image": "/images/A_RS6-removebg-preview.png"
+        }
+      ]
+    },
+    {
+      "marque": "Renault",
+      "voitures": [
+        {
+          "id": 73,
+          "name": "Clio",
+          "category": "Compacte",
+          "pricePerDay": 40,
+          "image": "/images/R_Clio-removebg-preview.png"
+        },
+        {
+          "id": 74,
+          "name": "Mégane",
+          "category": "Compacte",
+          "pricePerDay": 50,
+          "image": "/images/R_Mégane-removebg-preview.png"
+        },
+        {
+          "id": 75,
+          "name": "Captur",
+          "category": "SUV",
+          "pricePerDay": 60,
+          "image": "/images/R_Captur-removebg-preview.png"
+        },
+        {
+          "id": 76,
+          "name": "Kadjar",
+          "category": "SUV",
+          "pricePerDay": 70,
+          "image": "/images/R_Kadjar-removebg-preview.png"
+        },
+        {
+          "id": 77,
+          "name": "Scénic",
+          "category": "Minivan",
+          "pricePerDay": 65,
+          "image": "/images/R_Scénic-removebg-preview.png"
+        },
+        {
+          "id": 78,
+          "name": "Talisman",
+          "category": "Berline",
+          "pricePerDay": 80,
+          "image": "/images/R_Talisman-removebg-preview.png"
+        },
+        {
+          "id": 79,
+          "name": "Zoe",
+          "category": "Électrique",
+          "pricePerDay": 55,
+          "image": "/images/R_Zoe-removebg-preview.png"
+        },
+        {
+          "id": 80,
+          "name": "Kangoo",
+          "category": "Utilitaire",
+          "pricePerDay": 50,
+          "image": "/images/R_Kangoo-removebg-preview.png"
+        },
+        {
+          "id": 81,
+          "name": "Trafic",
+          "category": "Utilitaire",
+          "pricePerDay": 60,
+          "image": "/images/R_Trafic-removebg-preview.png"
+        },
+        {
+          "id": 82,
+          "name": "Espace",
+          "category": "Minivan",
+          "pricePerDay": 75,
+          "image": "/images/R_Espace-removebg-preview.png"
+        },
+        {
+          "id": 83,
+          "name": "Twingo",
+          "category": "Compacte",
+          "pricePerDay": 35,
+          "image": "/images/R_Twingo-removebg-preview.png"
+        },
+        {
+          "id": 84,
+          "name": "Alpine A110",
+          "category": "Sportive",
+          "pricePerDay": 200,
+          "image": "/images/R_Alpine_a110-removebg-preview.png"
+        }
+      ]
+    },
+    {
+      "marque": "Peugeot",
+      "voitures": [
+        {
+          "id": 85,
+          "name": "208",
+          "category": "Compacte",
+          "pricePerDay": 45,
+          "image": "/images/P_208-removebg-preview.png"
+        },
+        {
+          "id": 86,
+          "name": "308",
+          "category": "Compacte",
+          "pricePerDay": 55,
+          "image": "/images/P_308-removebg-preview.png"
+        },
+        {
+          "id": 87,
+          "name": "508",
+          "category": "Berline",
+          "pricePerDay": 70,
+          "image": "/images/P_508-removebg-preview.png"
+        },
+        {
+          "id": 88,
+          "name": "2008",
+          "category": "SUV",
+          "pricePerDay": 60,
+          "image": "/images/P_2008-removebg-preview.png"
+        },
+        {
+          "id": 89,
+          "name": "3008",
+          "category": "SUV",
+          "pricePerDay": 80,
+          "image": "/images/P_3008-removebg-preview.png"
+        },
+        {
+          "id": 90,
+          "name": "5008",
+          "category": "SUV",
+          "pricePerDay": 90,
+          "image": "/images/P_5008-removebg-preview.png"
+        },
+        {
+          "id": 91,
+          "name": "Partner",
+          "category": "Utilitaire",
+          "pricePerDay": 50,
+          "image": "/images/P_Partner-removebg-preview.png"
+        },
+        {
+          "id": 92,
+          "name": "Expert",
+          "category": "Utilitaire",
+          "pricePerDay": 60,
+          "image": "/images/P_Expert-removebg-preview.png"
+        },
+        {
+          "id": 93,
+          "name": "Rifter",
+          "category": "Utilitaire",
+          "pricePerDay": 55,
+          "image": "/images/P_Rifter-removebg-preview.png"
+        },
+        {
+          "id": 94,
+          "name": "Traveller",
+          "category": "Minivan",
+          "pricePerDay": 85,
+          "image": "/images/P_Traveller-removebg-preview.png"
+        },
+        {
+          "id": 95,
+          "name": "e-208",
+          "category": "Électrique",
+          "pricePerDay": 65,
+          "image": "/images/P_e-208-removebg-preview.png"
+        },
+        {
+          "id": 96,
+          "name": "e-2008",
+          "category": "SUV Électrique",
+          "pricePerDay": 75,
+          "image": "/images/P_e-2008-removebg-preview.png"
+        }
+      ]
+    }
+  ]
+}

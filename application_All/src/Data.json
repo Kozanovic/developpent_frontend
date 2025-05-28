@@ -1,0 +1,39 @@
+[
+    {
+      "id" : 1,
+      "pic": "./pic.jpeg",
+      "para": "iPhone 16 Pro Max 1TB",
+      "price": 2600
+    },
+    {
+      "id" : 2,
+      "pic": "./pic2.jpeg",
+      "para": "iPhone 15 Pro Max 1TB",
+      "price": 1500
+    },
+    {
+      "id" : 3,
+      "pic": "./pic3.jpeg",
+      "para": "iPhone 14 Pro Max 1TB",
+      "price": 1200
+    },
+    {
+      "id" : 4,
+      "pic": "./pic4.jpeg",
+      "para": "iPhone 13 Pro Max 1TB",
+      "price": 800
+    },
+    {
+      "id" : 5,
+      "pic": "./pic5.jpeg",
+      "para": "iPhone 12 Pro Max 1TB",
+      "price": 700
+    },
+    {
+      "id" : 6,
+      "pic": "./pic6.jpeg",
+      "para": "iPhone 11 Pro Max 1TB",
+      "price": 600
+    }
+  ]
+  

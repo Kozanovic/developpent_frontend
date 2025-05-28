@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "nom": "Youssef El Ghali",
+        "email": "youssef.elghali@exemple.com",
+        "commande": [
+            {"id": 101, "produit": "Couscous", "date": "2024-01-15"},
+            {"id": 102, "produit": "Tajine au poulet", "date": "2024-02-20"}
+        ]
+    },
+    {
+        "id": 2,
+        "nom": "Fatima Benali",
+        "email": "fatima.benali@exemple.com",
+        "commande": [
+            {"id": 103, "produit": "Pastilla", "date": "2024-03-10"},
+            {"id": 104, "produit": "Harira", "date": "2024-03-15"}
+        ]
+    },
+    {
+        "id": 3,
+        "nom": "Omar El Idrissi",
+        "email": "omar.idrissi@exemple.com",
+        "commande": [
+            {"id": 105, "produit": "Tagine d'agneau", "date": "2024-04-01"}
+        ]
+    }
+   ]

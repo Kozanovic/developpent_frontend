@@ -1,0 +1,39 @@
+[
+    {
+      "id" : 1,
+      "nom": "iPhone 16 Pro Max 1TB",
+      "prix": "2600 $",
+      "etat": "disponible"
+    },
+    {
+      "id" : 2,
+      "nom": "iPhone 15 Pro Max 512GB",
+      "prix": "1500 $",
+      "etat": "vendu"
+    },
+    {
+      "id" : 3,
+      "nom": "iPhone 14 Pro Max 256GB",
+      "prix": "1200 $",
+      "etat": "disponible"
+    },
+    {
+      "id" : 4,
+      "nom": "iPhone 13 Pro Max 256GB",
+      "prix": "900 $",
+      "etat": "vendu"
+    },
+    {
+      "id" : 5,
+      "nom": "iPhone 12 Pro Max 128GB",
+      "prix": "800 $",
+      "etat": "vendu"
+    },
+    {
+      "id" : 6,
+      "nom": "iPhone 11 Pro Max 128GB",
+      "prix": "700 $",
+      "etat": "disponible"
+    }
+  ]
+  

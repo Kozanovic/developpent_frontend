@@ -1,0 +1,81 @@
+{
+    "filieres": [
+        {
+            "id": 1,
+            "nom": "Agronomie"
+        },
+        {
+            "id": 2,
+            "nom": "Biologie"
+        },
+        {
+            "id": 3,
+            "nom": "Chimie"
+        },
+        {
+            "id": 4,
+            "nom": "Électronique"
+        },
+        {
+            "id": 5,
+            "nom": "Gestion"
+        },
+        {
+            "id": 6,
+            "nom": "Génie Civil"
+        },
+        {
+            "id": 7,
+            "nom": "Informatique"
+        },
+        {
+            "id": 8,
+            "nom": "Mathématiques"
+        },
+        {
+            "id": 9,
+            "nom": "Mécanique"
+        },
+        {
+            "id": 10,
+            "nom": "Physique"
+        }
+    ],
+    "etudiants": [
+        {
+            "id": 1,
+            "nom": "El Khatib",
+            "prenom": "Ahmed",
+            "age": 18,
+            "filiereId": 7
+        },
+        {
+            "id": 2,
+            "nom": "Bennani",
+            "prenom": "Fatima",
+            "age": 19,
+            "filiereId": 8
+        },
+        {
+            "id": 3,
+            "nom": "Amrani",
+            "prenom": "Youssef",
+            "age": 20,
+            "filiereId": 10
+        },
+        {
+            "id": 4,
+            "nom": "El Idrissi",
+            "prenom": "Sara",
+            "age": 18,
+            "filiereId": 3
+        },
+        {
+            "id": 5,
+            "nom": "Ouaziz",
+            "prenom": "Mohammed",
+            "age": 21,
+            "filiereId": 2
+        }
+    ]
+}

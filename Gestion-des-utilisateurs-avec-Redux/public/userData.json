@@ -1,0 +1,32 @@
+{
+    "utilisateurs" : [
+        {
+            "id":1,
+            "nom": "Jean Dupont",
+            "email":"jean.dupont@exemple.com",
+            "id_role": 1
+        },
+        {
+            "id":2,
+            "nom": "Marie Curie",
+            "email":"marie.curie@exemple.com",
+            "id_role": 2
+        },
+        {
+            "id":3,
+            "nom": "Albert Einstein",
+            "email":"albert.einstein@exemple.com",
+            "id_role": 1
+        }
+    ],
+    "roles" : [
+        {
+            "id_role":1,
+            "nom_role": "Administrateur"
+        },
+        {
+            "id_role":2,
+            "nom_role": "Utilisateur"
+        }
+    ]
+}
